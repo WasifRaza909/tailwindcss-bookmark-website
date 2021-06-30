@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 80% !important;
+  margin: 0 auto;
+}
+
+header nav ul li a {
+  transition: all 300ms ease;
+}
+
+header nav ul li a:hover {
+  color: #fa5757;
+}
+
+header nav ul .nav-btn {
+  background-color: #fa5757;
+  cursor: pointer;
+  border: 1px solid #fa5757;
+  transition: all 500ms ease;
+}
+
+header nav ul .nav-btn:hover {
+  border: 1px solid #fa5757;
+  color: #fa5757;
+  background-color: #ffffff;
+}
+
+#hero {
+  height: 500px;
+}
+
+.hero-left p {
+  color: #9194a1;
+}
+
+.hero-left a:first-child {
+  background-color: #5368df;
+  transition: all 500ms ease;
+  border: 1px solid #5368df;
+}
+
+.hero-left a:first-child:hover {
+  color: #5368df;
+  background-color: #ffffff;
+  border: 1px solid #5368df;
+}
+
+.hero-right div {
+  background-color: #5368df;
+}
+
+#features p {
+  color: #9194a1;
+}
+
+#features a {
+  border-color: #fa5757;
+  transition: all 300ms ease;
+}
+
+#features a:hover {
+  color: #fa5757;
+}
+
+.features-carousel > div {
+  height: 450px;
+}
+
+#features .flex-left div {
+  background-color: #5368df;
+}
+
+#features .flex-right a {
+  background-color: #5368df;
+  border: 1px solid #5368df;
+}
+
+#features .flex-right a:hover {
+  color: #5368df;
+  background-color: #ffffff;
+  border: 1px solid #5368df;
+}
+
+#extension .cards {
+  height: 400px;
+}
+
+#extension .card a {
+  background-color: #5368df;
+  transition: all 500ms ease;
+}
+
+#extension .card a:hover {
+  border: 1px solid #5368df;
+  color: #5368df;
+  background-color: #ffffff;
+}
+
+#extension .card {
+  height: 350px;
+}
+
+#extension .card p {
+  color: #9194a1;
+}
+
+#faq ul li p {
+  color: #9191a1;
+}
+
+#faq i {
+  cursor: pointer;
+}
+
+#faq > a {
+  background-color: #5368df;
+  border: 1px solid #5368df;
+  transition: all 500ms ease;
+}
+
+#faq > a:hover {
+  background-color: #ffffff;
+  border: 1px solid #5368df;
+  color: #5368df;
+}
+
+#faq .arrow-icon-reverse {
+  transform: rotate(180deg);
+}
+
+#contact {
+  background-color: #5368df;
+}
+
+#contact input[type='submit'] {
+  background-color: #fa5757;
+  cursor: pointer;
+  border: 1px solid #fa5757;
+  transition: all 1s ease;
+}
+
+#contact input[type='submit']:hover {
+  border: 1px solid #fa5757;
+  color: #fa5757;
+  background-color: #fff;
+}
+
+footer i {
+  cursor: pointer;
+  color: #252b46;
+  transition: all 300ms ease;
+}
+
+footer a {
+  transition: all 300ms ease;
+}
+
+footer a:hover {
+  color: #fa5757;
+}
+
+footer i:hover {
+  color: #fa5757;
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .hamburger-icon {
+    cursor: pointer;
+  }
+
+  .nav-flex-right {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  header nav ul .nav-btn {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+
+  .features-carousel > div {
+    height: auto;
+  }
+
+  #extension .cards {
+    height: auto;
+  }
+
+  #hero {
+    height: auto;
+  }
+
+  #extension .card {
+    height: auto;
+  }
+}
