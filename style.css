@@ -176,7 +176,7 @@ footer i:hover {
   color: #fa5757;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .container {
     max-width: 100% !important;
   }
@@ -192,7 +192,7 @@ footer i:hover {
   header nav ul .nav-btn {
     background-color: transparent;
     color: #000000;
-    border: 1px solid #000000;
+    border: 1px solid hsl(0, 0%, 0%);
   }
 
   .features-carousel > div {
