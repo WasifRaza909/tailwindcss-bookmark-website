@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 80% !important;
+  max-width: 90% !important;
   margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ header nav ul .nav-btn:hover {
 }
 
 #extension .card {
-  height: 350px;
+  height: 360px;
 }
 
 #extension .card p {
