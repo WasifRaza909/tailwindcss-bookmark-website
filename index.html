@@ -94,13 +94,13 @@
               "
             >
               <li class="py-5 lg:py-0 border-t border-b lg:border-none">
-                <a href="#features">FEATURES</a>
+                <a href="#features" class="home-nav-link">FEATURES</a>
               </li>
               <li class="py-5 lg:py-0 border-t border-b lg:border-none">
-                <a href="#faq">FAQ</a>
+                <a href="#faq" class="home-nav-link">FAQ</a>
               </li>
               <li class="py-5 lg:py-0 border-t border-b lg:border-none">
-                <a href="#contact">CONTACT</a>
+                <a href="#contact" class="home-nav-link">CONTACT</a>
               </li>
               <li
                 class="
@@ -324,7 +324,9 @@
             >
               <a
                 href="#!"
+                data-id="simpleBookmarking"
                 class="pb-4 lg:pb-2 border-b-4 px-6 features-nav-link"
+                style="color: #fa5757"
                 >Simple Bookmarking</a
               >
             </li>
@@ -338,7 +340,10 @@
                 lg:w-auto
               "
             >
-              <a href="#!" class="pb-4 lg:pb-2 x-6 features-nav-link"
+              <a
+                href="#!"
+                data-id="speedySearching"
+                class="pb-4 lg:pb-2 px-6 features-nav-link"
                 >Speedy Searching</a
               >
             </li>
@@ -352,11 +357,16 @@
                 lg:w-auto
               "
             >
-              <a href="#!" class="pb-4 px-10 features-nav-link">Easy Sharing</a>
+              <a
+                href="#!"
+                data-id="easySharing"
+                class="pb-2 px-10 features-nav-link"
+                >Easy Sharing</a
+              >
             </li>
           </ul>
         </nav>
-        <div id="simpleBookmarking" class="hidden">
+        <div id="simpleBookmarking" class="features-nav-div">
           <div class="flex flex-col lg:flex-row h-full items-end">
             <div class="flex-left w-full lg:w-1/2 relative mb-20 lg:mb-0">
               <img
@@ -432,7 +442,7 @@
             </div>
           </div>
         </div>
-        <div id="speedySearching" class="hidden">
+        <div id="speedySearching" class="hidden features-nav-div">
           <div class="flex flex-col lg:flex-row h-full items-end">
             <div class="flex-left w-full lg:w-1/2 relative mb-16 lg:mb-0">
               <img
@@ -512,7 +522,7 @@
             </div>
           </div>
         </div>
-        <div id="easySharing" class="">
+        <div id="easySharing" class="hidden features-nav-div">
           <div class="flex flex-col lg:flex-row lg:h-full items-end">
             <div class="flex-left w-full lg:w-1/2 relative mb-20 lg:mb-0">
               <img
