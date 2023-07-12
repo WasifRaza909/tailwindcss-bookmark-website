@@ -62,10 +62,6 @@ header nav ul .nav-btn:hover {
   background-color: #5368df;
 }
 
-#features {
-  transform: translateX(115%);
-}
-
 #features p {
   color: #9194a1;
 }
@@ -98,10 +94,6 @@ header nav ul .nav-btn:hover {
   border: 1px solid #5368df;
 }
 
-#extension {
-  transform: translateX(-115%);
-}
-
 #extension .cards {
   height: 400px;
 }
@@ -123,10 +115,6 @@ header nav ul .nav-btn:hover {
 
 #extension .card p {
   color: #9194a1;
-}
-
-#faq {
-  transform: translateX(150%);
 }
 
 #faq ul li p {
@@ -162,10 +150,6 @@ header nav ul .nav-btn:hover {
   cursor: pointer;
   border: 1px solid #fa5757;
   transition: all 1s ease;
-}
-
-#contact .flex {
-  transform: translateX(-110%);
 }
 
 #contact input[type="submit"]:hover {
